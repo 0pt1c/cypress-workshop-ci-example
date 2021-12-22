@@ -3,6 +3,7 @@ name: ci
 on: [push]
 jobs:
   build-and-test:
+    environment: CI/CD
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout 🛎
